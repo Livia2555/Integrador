@@ -1,0 +1,78 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #5b6aa5;
+  }
+  
+  /* Container geral */
+  .container {
+    width: 800px;
+    height: 450px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 60px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Lado esquerdo com imagem */
+  .container::before {
+    content: '';
+    flex: 1;
+    background: url('https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-login_114360-5375.jpg') no-repeat center;
+    background-size: cover;
+    padding: 50px;
+  }
+  
+  /* Formulário */
+  form {
+    flex: 1;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    gap: 10px;
+  }
+  
+  form input {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  form .login {
+    background-color: #0a3d91;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form .login:hover {
+    background-color: #062c6f;
+  }
+  
+  form p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .Login{
+    color: #062c6f;
+    padding-right: 50px;
+    
+  }
+  
