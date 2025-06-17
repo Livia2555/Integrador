@@ -9,7 +9,14 @@ export function NavBar() {
     <nav className="navbar">
         <Link to="/"><img src={Logo} alt="logo smart city com um icone de nuvem" /></Link>
       <ul>
-        <li><Link to="/Login"> <img src={icone} alt="icone de pessoa"/>Login</Link></li>
+        <li><Link to="/Sensores"> Sensores</Link></li>
+        <li><Link to="/Login">Ambiente</Link></li>
+        <li><Link to="/Login">Historico</Link></li>
+        <li>
+          <Link to="/Login"  className="login-link">
+              <img src={icone} alt="icone de pessoa" className="login-link"/>Login
+         </Link>
+         </li>
       </ul>
     </nav>
   );

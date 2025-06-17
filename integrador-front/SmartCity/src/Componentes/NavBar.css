@@ -27,22 +27,25 @@
     margin-left: 25px;
 }
 
+.login-link {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  text-decoration: none;
+
+}
+
+ul li a {
+  text-decoration: none; /* remove o sublinhado */
+  color: black;           /* define cor do link */
+}
 ul{
+    color: black;
     display: flex;
-    gap: 40%;
+    gap: 10%;
     align-items: center;
+    justify-content: center;
     margin-left: 50%;
     margin-top: 15px;
     list-style: none;
-}
-
-li .link{
-    transition: 0.1s;
-}
-
-.link:hover{
-    background-color: rgb(52, 64, 226);
-    border-radius: 20px;
-    padding: 10px;
-    color: aliceblue;
 }
