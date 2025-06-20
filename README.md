@@ -43,7 +43,7 @@
   e rode npm run dev copia o link e abra no navegador
 
 
-### Se quiser apagar o banco 
+### Se quiser excluir o banco 
    depois de intalar se quiser apagar o banco de dados vai ser necessario esses tres passos
     -python manage.py makemigrations
     -python manage.py migrate
