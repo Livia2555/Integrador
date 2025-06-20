@@ -17,7 +17,7 @@
   -python manage.py makemigrations
   -python manage.py migrate
   -python manage.py createsuperuser
-  no createsuperuser vai pedir pra adicionar um username email e senah junto coma confirmação dela e por fim quando aparecer a mensagem y or n digite y e envia e depois e so rodar o back end com python manage.py runserver
+  no createsuperuser vai pedir pra adicionar um username email e senah junto com a confirmação dela e por fim quando aparecer a mensagem y or n digite y e envia e depois e so rodar o back end com python manage.py runserver
   
   mas caso nao queria apagar o banco e so rodar com python manage.py runserver
   Esses são os primeiros passos a se fazer com o projeto pra conseguir rodar e começar a testar
