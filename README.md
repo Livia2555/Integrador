@@ -22,3 +22,16 @@
   mas caso nao queria apagar o banco e so rodar com python manage.py runserver
   Esses são os primeiros passos a se fazer com o projeto pra conseguir rodar e começar a testar
 
+
+Para que na tabela sensores , ambiente e historico apareça os dados é importante que abra o postaman cria 3 requests uma pra cada usando esse endpoits 
+- http://127.0.0.1:8000/sensores/importarSensores/ tambem vai precisar do token de acesso depois vai em body colcoque sensores  seleciona file e escolhe o arquivo sensores.xlsx
+- http://127.0.0.1:8000/ambiente/importarAmbiente/  precisa do token colocar o nome ambinte file e o arquivo ambintes.xlxs
+- http://127.0.0.1:8000/historico/importarHistorico/  mesma coisa token nome historico file arquivo historico.xlxs
+
+- esse é o endpoint do login http://127.0.0.1:8000/login/
+- coloque isso no body raw
+- {
+    "username": "Livia",
+    "password": "12345"
+  }
+
