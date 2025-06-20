@@ -1,0 +1,175 @@
+/* Sensor.css */
+
+.container-sensores {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  color: #1e1e1e;
+  
+}
+
+.container-sensores h1 {
+  margin-bottom: 3%;
+  margin-left: 30%;
+}
+
+/* Container que alinha filtro à esquerda e botão à direita */
+.actions-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Estilo do filtro (select) */
+.filtro {
+  width: 200px;
+  padding: 0.3rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo do botão */
+.botao-criar {
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.botao-criar:hover {
+  background-color: #0056b3;
+}
+.tabelaSensores {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.linhaSensorCabecalho {
+  background-color: #dce8ff;
+  text-align: left;
+  font-weight: bold;
+  
+}
+
+.tabelaSensores th,
+.tabelaSensores td {
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  text-align: left;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.linhaSensor:nth-child(even) {
+  background-color: #f5faff;
+}
+
+.linhaSensor:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.btnEditarSensor,
+.btnExcluirSensor {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  color: #003087;
+  transition: transform 0.2s;
+}
+
+.btnEditarSensor:hover,
+.btnExcluirSensor:hover {
+  transform: scale(1.1);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal-medio {
+  width: 400px;
+}
+
+.modal-pequeno {
+  width: 300px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.formulario input,
+.formulario select {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.botoes button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #dce8ff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.botoes button:hover {
+  background-color: #c3d9ff;
+}
+
+.botoes .btsim{
+  background-color: #05A805;
+  color: white;
+}
+.botoes .btsim:hover {
+  background-color: #67e067;
+  color: #1e1e1e;
+}
+
+.botoes .btnao{
+  background-color: #C80C0C;
+  color: white;
+}
+.botoes .btnao:hover {
+  background-color: #fc3333;
+  color: #000000;
+}

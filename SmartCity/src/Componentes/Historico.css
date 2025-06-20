@@ -1,0 +1,216 @@
+/* Estilo geral do container de históricos */
+.container-historico {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.actions-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.actions-row input,
+.actions-row select {
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.botao-criar,
+.botao-download {
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #dce8ff;
+  border: none;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s ease;
+}
+
+.botao-criar:hover,
+.botao-download:hover {
+  background-color: #BCD4F6;
+  
+}
+
+/* Estilo do modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal-medio {
+  width: 420px;
+}
+
+.modal-pequeno {
+  width: 300px;
+}
+
+/* Formulário */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+input,
+select {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.botoes button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #dce8ff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.botoes button:hover {
+  background-color: #c3d9ff;
+}
+
+/* Estilo da tabela */
+.tabelaHistorico {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.linhaCabecalhoHistorico {
+  background-color: #dce8ff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.tabelaHistorico th,
+.tabelaHistorico td {
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  text-align: left;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.linhaHistorico:nth-child(even) {
+  background-color: #f5faff;
+}
+
+.linhaHistorico:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.btnEditar,
+.btnExcluir {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  color: #003087;
+  transition: transform 0.2s;
+}
+
+.btnEditar:hover,
+.btnExcluir:hover {
+  transform: scale(1.1);
+}
+
+/* Campos do filtro menores */
+.filtro-historico {
+  width: 200px; /* Tamanho compacto como em sensores */
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+.actions-row input,
+.actions-row select {
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+}
+
+
+/* Estilo do título */
+.tituloHis {
+  margin-left: 30%;
+  margin-bottom: 5%;
+}
+
+.botoes .btsim{
+  background-color: #05A805;
+  color: white;
+}
+.botoes .btsim:hover {
+  background-color: #67e067;
+  color: #1e1e1e;
+}
+
+.botoes .btnao{
+  background-color: #C80C0C;
+  color: white;
+}
+.botoes .btnao:hover {
+  background-color: #fc3333;
+  color: #000000;
+}

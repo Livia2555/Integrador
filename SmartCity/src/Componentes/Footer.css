@@ -1,0 +1,32 @@
+.footer {
+  background-color: #74b2e2;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-family: sans-serif;
+}
+
+.footer-logo {
+  width: 80%; /* ajuste conforme o tamanho da imagem */
+  height: auto;
+}
+
+.footer-subtitle {
+  font-size: 13px;
+  color: #000;
+}
+
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
