@@ -35,3 +35,6 @@ Para que na tabela sensores , ambiente e historico apareça os dados é importan
     "password": "12345"
   }
 
+
+e por fim para rodar o front instale o node modules com npm i 
+e rode npm run dev copia o link e abra no navegador
