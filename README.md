@@ -1,6 +1,8 @@
 # Integrador
 ##Lembrete (Os dados das planilhas já estão salvos no banco de dados então so é necessario intalar as dependencias e rodar tanto o back quanto o front)
-  1-O projeto se basei em implementar sensores na cidade. E com esse projeto ser possivel ver os sensores umidade, contador, temperatura, luminosidade alem de ambiente e historico a pessoa logada(autentificada) é permitida adiconar editar e excluir sensores, ambiente e historico
+
+
+1-O projeto se basei em implementar sensores na cidade. E com esse projeto ser possivel ver os sensores umidade, contador, temperatura, luminosidade alem de ambiente e historico a pessoa logada(autentificada) é permitida adiconar editar e excluir sensores, ambiente e historico
   Agora começando o projeto :
   Para iniciar o projeto é necessario
   
