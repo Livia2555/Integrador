@@ -25,7 +25,7 @@
 
 
 
-## situações que caso queria fazer vai conseguir 
+## Se quiser fazer vai conseguir 
 2-Para que na tabela sensores , ambiente e historico apareça os dados é importante que abra o postaman cria 3 requests uma pra cada usando esse endpoits 
   - http://127.0.0.1:8000/sensores/importarSensores/ tambem vai precisar do token de acesso depois vai em body colcoque sensores  seleciona file e escolhe o arquivo sensores.xlsx
   - http://127.0.0.1:8000/ambiente/importarAmbiente/  precisa do token colocar o nome ambinte file e o arquivo ambintes.xlxs
