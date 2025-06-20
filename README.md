@@ -2,10 +2,13 @@
   O projeto se basei em implementar sensores na cidade. E com esse projeto ser possivel ver os sensores umidade, contador, temperatura, luminosidade alem de ambiente e historico a pessoa logada(autentificada) é permitida adiconar editar e excluir sensores, ambiente e historico
   Agora começando o projeto :
   Para iniciar o projeto é necessario
+  
   -intalar a env com o comando python -m venv env
+  
   -ativar a env .\env\Scripts\Activate
+  
   -instalar todos esses
-  pip install djangorestframework
+    pip install djangorestframework
     pip install djangorestframework-simplejwt
     pip install django-cors-headers
     pip install django-import-export , pip install pandas , pip install openpyxl
